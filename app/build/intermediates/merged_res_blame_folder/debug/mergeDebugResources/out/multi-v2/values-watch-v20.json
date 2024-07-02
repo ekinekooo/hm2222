@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "ru.itis.summerpractice24.app-mergeDebugResources-61:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/mehmetkaanemmedik/.gradle/caches/transforms-4/6138979459410a8b471f661e6c5d09f0/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

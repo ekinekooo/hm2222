@@ -1,0 +1,54 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_one">
+
+    <fragment
+        android:id="@+id/fragment_one"
+        android:name="ru.itis.summerpractice24.FragmentOne"
+        android:label="Home">
+        <action
+            android:id="@+id/action_fragment_one_to_details"
+            app:destination="@id/fragment_details"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_two"
+        android:name="ru.itis.summerpractice24.FragmentTwo"
+        android:label="Search">
+        <action
+            android:id="@+id/action_fragment_two_to_details"
+            app:destination="@id/fragment_details2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_details2"
+        android:name="ru.itis.summerpractice24.DetailFragment"
+        android:label="Details" />
+
+
+    <fragment
+        android:id="@+id/fragment_three"
+        android:name="ru.itis.summerpractice24.FragmentThree"
+        android:label="Add" />
+
+    <fragment
+        android:id="@+id/fragment_four"
+        android:name="ru.itis.summerpractice24.FragmentFour"
+        android:label="Favourite" />
+
+    <fragment
+        android:id="@+id/fragment_five"
+        android:name="ru.itis.summerpractice24.FragmentFive"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/fragment_details"
+        android:name="ru.itis.summerpractice24.FragmentDetails"
+        android:label="Details" />
+
+</navigation>

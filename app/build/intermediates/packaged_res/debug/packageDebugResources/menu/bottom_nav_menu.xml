@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_one"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/fragment_two"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/fragment_three"
+        android:icon="@drawable/baseline_add_24"
+        android:title="Add"/>
+
+    <item
+        android:id="@+id/fragment_four"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="Favourite"/>
+
+    <item
+        android:id="@+id/fragment_five"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"/>
+
+</menu>
